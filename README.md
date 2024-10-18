@@ -3,4 +3,4 @@
 
 https://ec2-18-188-193-224.us-east-2.compute.amazonaws.com
 
-Check it up!
+Check it out!
