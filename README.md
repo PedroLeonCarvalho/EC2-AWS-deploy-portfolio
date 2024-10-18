@@ -1,5 +1,5 @@
 # EC2 AWS Deploy "Portfólio"
-
+Desenvolvido por Pedro Leon ®
 Desenvolvi esta página de portifólio onde explorei:
 
 *Gerenciamento de Infraestrutura na Nuvem:* Configuração de uma instância EC2 na AWS, com criação e configuração de ambiente de rede e segurança (VPC, Security Groups).
