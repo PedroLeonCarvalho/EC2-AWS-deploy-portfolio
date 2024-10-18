@@ -1,4 +1,4 @@
-# EC2-AWS-deploy-portfolio
+# EC2 AWS Deploy "Portfólio"
 
 Desenvolvi esta página simples de portifólio onde explorei:
 
