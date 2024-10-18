@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Pedro Leon Carvalho</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 4ex;
+            padding: 20px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            flex: auto;
+        }
+        h1, h2 {
+            color: #c5a1e0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #333;
+            border: 1px solid #444;
+        }
+        .contact-info div {
+            max-width: 50%;
+        }
+        .contact-info a {
+            color: #9cdcfe;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-info img {
+            max-width: 5%;
+            height: auto;
+            border-radius: 8px;
+            margin-left: 20px;
+            margin-right: 0;
+        }
+        .container img {
+            max-width: 5%;
+        }
+
+        
+        .skills {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #2d2d2d;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #9cdcfe;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            border-radius: 8px;
+            border-top: 1px solid #444;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #9cdcfe;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+
+        <img src="img/ec2.png" class="logo">
+        <img src="img/JAVAA.png" class="logo">
+        <img src="img/sping2.png" class="logo">
+        <img src="img/docker-icon-512x438-ga1hb37h.png" class="logo">
+        <img src="img/spring-boot-logo-png-4-transparent.png" class="logosb">
+        <img src="img/sql4.png" class="logosb">
+        
+
+        <div class="contact-info">
+            <div>
+                <p><strong>Pedro Leon B. B. Carvalho / Desenvolvedor Java Back-End </strong></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/pedro-leon-carvalho" target="_blank">www.linkedin.com/in/pedro-leon-carvalho</a></p>
+                <p>GitHub/Portfólio: <a href="https://github.com/PedroLeonCarvalho" target="_blank">https://github.com/PedroLeonCarvalho</a></p>
+                <p>Currículo: <a href="https://docs.google.com/document/d/1oGyGFT5ZiD1vqzgNhXeRfibjWYeK0-rL/edit" target="_blank">Ver Currículo</a></p>
+                <p>Telefone: +55 32 99838 9801</p>
+                <p>Email: <a href="mailto:pedrolbbcarvalho@gmail.com">pedrolbbcarvalho@gmail.com</a></p>
+                <p>Localização: Belo Horizonte - Minas Gerais</p>
+            </div>
+            
+        </div>
+        
+    
+
+        <footer>
+            <p class="rodape"> Esta página Html está sendo servida a partir de uma instância EC2 na AWS.</p>
+            <p>Contatos: +55 32 99838 9801 | <a href="mailto:pedrolbbcarvalho@gmail.com">pedrolbbcarvalho@gmail.com</a></p>
+            <p>&copy; <span id="year"></span> Pedro Leon Carvalho</p>
+        </footer>
+    </div>
+
+    <script>
+        // Atualiza o ano atual no rodapé
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
